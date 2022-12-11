@@ -1,0 +1,37 @@
+footer{
+    background: #181511;
+    margin: 0;
+    padding: 0;
+}
+footer .row{
+    background: #181511;
+    
+
+}
+.row p{
+    font-family: 'Old Standard TT';
+font-size: 12px;
+color: #ACA592;
+
+}
+.col-6{
+    display: flex;
+    padding-left: 70px;
+}
+
+.col-6 .second{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+
+
+color:#FFAE2B;
+
+}
+.col-6 li{
+    font-family: 'Old Standard TT';
+    color:#FFAE2B;
+    list-style: none;
+}

@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+
+}
+.container{
+    text-transform: uppercase;
+    font-family: 'Old Standard TT';
+}
+.container .btn{
+    font-family: 'Old Standard TT';
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+
+@media only screen and(min-device-width : 568px)  and(max-device-width : 767px) {
+    header{
+     background: red;
+     width: 100%;
+     margin-left: 10px;
+     margin-right: 10px;
+    }
+    .nav li{
+       margin-right: 10px;
+       font-size: 14px;
+    }
+    .nav h5{
+        font-size: 16px;
+    }
+    .nav h6{
+        font-size: 14px;
+    }
+    .nav button{
+        padding: 5px 10px;
+        margin-left: 180px; 
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    header{
+        background: blue;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       .nav li{
+          margin-right: 10px;
+          font-size: 14px;
+       }
+       .nav h5{
+           font-size: 16px;
+       }
+       .nav h6{
+           font-size: 14px;
+       }
+       .nav button{
+           padding: 5px 10px;
+           margin-left: 180px; 
+       }
+}

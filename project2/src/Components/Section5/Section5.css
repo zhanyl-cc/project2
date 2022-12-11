@@ -1,0 +1,40 @@
+.section5{
+    background: #181511;
+    padding-top: 90px;
+}
+.section5 h3{
+    font-family: 'Old Standard TT';
+    font-size: 60px;
+    text-align: center;
+    color: #FFAE2B;
+}
+.section5 p{
+    font-family: 'Old Standard TT';
+     text-align: center;
+    color: #ACA592;
+}
+.section5 input {
+    margin-left: auto;
+    margin-right: auto ;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.section5 #text{
+    background: #181511;
+    border:1px solid #FFAE2B;
+}
+.section5 #btn{
+    background:#FFAE2B;
+    border:1px solid #FFAE2B;
+
+}
+.container-logo img{   
+   padding: 4px;
+   border: 1px solid #4B4136;
+}
+.container-logo{
+    display: flex;
+    justify-content: center;
+}
